@@ -1,0 +1,23 @@
+version: "3.1"
+
+intents:
+- find_resources
+- budgeting_tips
+- ask_help
+- greet
+entities:
+- amount
+- date
+- financial_term
+
+responses:
+  utter_greet:
+  - text: "What type of resources are you looking for today"
+  utter_find_resources:
+  - text: "Here are some financial resources..."
+  
+  utter_budgeting_tips:
+  - text: "Here are some budgeting tips..."
+  
+  utter_ask_help:
+  - text: "How can I help you with your finances?"

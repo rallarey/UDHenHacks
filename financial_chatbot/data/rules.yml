@@ -1,0 +1,17 @@
+version: "3.1"
+
+rules:
+- rule: Find resources
+  steps:
+  - intent: find_resources
+  - action: utter_find_resources
+
+- rule: Budgeting tips
+  steps:
+  - intent: budgeting_tips
+  - action: utter_budgeting_tips
+
+- rule: Ask help
+  steps:
+  - intent: ask_help
+  - action: utter_ask_help
