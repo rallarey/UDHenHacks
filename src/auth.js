@@ -1,4 +1,6 @@
-const firebaseConfig = {
+import { renderPage } from "./mainpage.js";
+
+export const firebaseConfig = {
     apiKey: "AIzaSyAcTb0AVwtoOlslV51omp6yZX1Db13s59Q",
     authDomain: "henhacks-1b587.firebaseapp.com",
     databaseURL: "https://henhacks-1b587-default-rtdb.firebaseio.com",
@@ -9,12 +11,10 @@ const firebaseConfig = {
     measurementId: "G-X98Z7CYW7D"
   };
 
-  // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 
-
-  let renderLogIn = ()=>{
+let renderLogIn = ()=>{
     $("body").html(`
     <div class = "log-in">
       <div class = "container">
@@ -224,7 +224,7 @@ const auth = firebase.auth();
     })
   }
   
-  
+  /*
   let renderPage = (loggedIn)=>{
     var username = '';
     var pic = '';
@@ -242,6 +242,7 @@ const auth = firebase.auth();
     });
   
   };
+  */
   
 
   
