@@ -32,7 +32,6 @@ let renderNextPage = ()=>{
         <label for="term">Loan Length (years):</label>
         <input type="number" id="term" name="term" value="5"required>
         <button id = "Calculate">Calculate</button>
-        <button id = "updateChart">Update Chart</button>
         <p id="result"></p>
         <p id="result2"></p>
         <p id="result3"></p>
@@ -43,7 +42,6 @@ let renderNextPage = ()=>{
     <button id = "nextpage">NEXT PAGE</button>
     <button id = "previouspage">PREVIOUS PAGE</button>
     <button id = "logout">LOG OUT</button>
-    <button id = "createChart">chart</button>
     `);
       /*
     const ctx = document.getElementById('myChart');
@@ -149,6 +147,7 @@ let renderNextPage = ()=>{
 
     $("#Calculate").on("click", ()=>{
         calculate();
+        updateChart();
     });
 
     $("#updateChart").on("click",()=>{
