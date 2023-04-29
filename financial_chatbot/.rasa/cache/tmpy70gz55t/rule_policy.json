@@ -1,0 +1,42 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"investment_basics\"}}]": "utter_investment_basics",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"investment_basics\"}}, {\"prev_action\": {\"action_name\": \"utter_investment_basics\"}, \"user\": {\"intent\": \"investment_basics\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"budgeting_basics\"}}]": "utter_budgeting_basics",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"budgeting_basics\"}}, {\"prev_action\": {\"action_name\": \"utter_budgeting_basics\"}, \"user\": {\"intent\": \"budgeting_basics\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"financial_planning_basics\"}}]": "utter_financial_planning_basics",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"financial_planning_basics\"}}, {\"prev_action\": {\"action_name\": \"utter_financial_planning_basics\"}, \"user\": {\"intent\": \"financial_planning_basics\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"investment_types\"}}]": "utter_investment_types",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"investment_types\"}}, {\"prev_action\": {\"action_name\": \"utter_investment_types\"}, \"user\": {\"intent\": \"investment_types\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"debt_reduction\"}}]": "utter_debt_reduction",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"debt_reduction\"}}, {\"prev_action\": {\"action_name\": \"utter_debt_reduction\"}, \"user\": {\"intent\": \"debt_reduction\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_help\"}}]": "utter_ask_help",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_help\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_help\"}, \"user\": {\"intent\": \"ask_help\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"payday_loans_risks\"}}]": "utter_payday_loans_risks",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"payday_loans_risks\"}}, {\"prev_action\": {\"action_name\": \"utter_payday_loans_risks\"}, \"user\": {\"intent\": \"payday_loans_risks\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"investment_basics\"}}]",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"investment_types\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"financial_planning_basics\"}}, {\"prev_action\": {\"action_name\": \"utter_financial_planning_basics\"}, \"user\": {\"intent\": \"financial_planning_basics\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"payday_loans_risks\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_help\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"investment_types\"}}, {\"prev_action\": {\"action_name\": \"utter_investment_types\"}, \"user\": {\"intent\": \"investment_types\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"debt_reduction\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"budgeting_basics\"}}, {\"prev_action\": {\"action_name\": \"utter_budgeting_basics\"}, \"user\": {\"intent\": \"budgeting_basics\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"debt_reduction\"}}, {\"prev_action\": {\"action_name\": \"utter_debt_reduction\"}, \"user\": {\"intent\": \"debt_reduction\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"budgeting_basics\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"financial_planning_basics\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"payday_loans_risks\"}}, {\"prev_action\": {\"action_name\": \"utter_payday_loans_risks\"}, \"user\": {\"intent\": \"payday_loans_risks\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"investment_basics\"}}, {\"prev_action\": {\"action_name\": \"utter_investment_basics\"}, \"user\": {\"intent\": \"investment_basics\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_help\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_help\"}, \"user\": {\"intent\": \"ask_help\"}}]"
+    ]
+  }
+}

@@ -1,19 +1,110 @@
 version: "3.1"
 nlu:
-- intent: find_resources
-  examples: |
-    - Show me some financial resources
-    - What are the alternatives to payday loans?
-    - Where can I find better financial resources?
-
-- intent: budgeting_tips
-  examples: |
-    - Give me some budgeting tips
-    - How can I manage my expenses better?
-    - What are some ways to save money?
 
 - intent: ask_help
   examples: |
     - I need help with my finances
     - Can you help me with my financial situation?
     - I'm struggling with money, can you assist me?
+
+- intent: investment_basics
+  examples: |
+    - Can you explain the basics of investing?
+    - What should I know about investing?
+    - Give me an overview of investment.
+
+- intent: investment_types
+  examples: |
+    - What are the different types of investments?
+    - Tell me about various investment options.
+    - What investment options are available?
+
+- intent: budgeting_basics
+  examples: |
+    - Can you explain the basics of budgeting?
+    - How do I create a budget?
+    - Tell me about budgeting.
+
+- intent: financial_planning_basics
+  examples: |
+    - Can you explain the basics of financial planning?
+    - What should I know about financial planning?
+    - Give me an overview of financial planning.
+
+- intent: payday_loans_risks
+  examples: |
+    - What are the risks associated with payday loans?
+    - Tell me about the downsides of payday loans.
+    - Why should I avoid payday loans?
+
+- intent: debt_reduction
+  examples: |
+    - How can I reduce my debt?
+    - What are some strategies to pay off debt faster?
+    - Tips for reducing debt.
+
+- intent: investment_recommendations
+  examples: |
+    - Where should I invest my money?
+    - Can you suggest some investment options?
+    - What are the best investments to make right now?
+
+- intent: financial_planning_resources
+  examples: |
+    - Where can I find help with financial planning?
+    - Can you recommend any financial planning resources?
+    - How do I get assistance with financial planning?
+
+- intent: budgeting_tools
+  examples: |
+    - Can you suggest some budgeting tools?
+    - What tools can I use for budgeting?
+    - How can I keep track of my budget?
+
+- intent: debt_reduction_resources
+  examples: |
+    - Where can I find help with reducing my debt?
+    - Can you recommend any resources for debt reduction?
+    - How do I get assistance with debt management?
+
+- intent: credit_scores
+  examples: |
+    - Can you explain credit scores?
+    - How do credit scores work?
+    - Tell me about credit scores.
+
+- intent: about_401k
+  examples: |
+    - What is a 401k?
+    - Can you explain 401k plans?
+    - Tell me about 401k retirement plans.
+
+- intent: diversification
+  examples: |
+    - Can you explain diversification?
+    - What is investment diversification?
+    - Tell me about diversifying investments.
+
+- intent: growth_strategies
+  examples: |
+    - Can you explain growth strategies?
+    - What are some investment growth strategies?
+    - Tell me about strategies for growing my investments.
+
+- intent: credit_unions
+  examples: |
+    - Can you explain credit unions?
+    - How do credit unions work?
+    - Tell me about credit unions.
+
+- intent: non_profit_resources
+  examples: |
+    - What non-profit organizations can help with personal finance?
+    - Can you recommend some non-profits for financial assistance?
+    - Tell me about non-profit resources for financial help.
+
+- intent: government_programs
+  examples: |
+    - What government programs can help with personal finance?
+    - Can you recommend some government assistance programs?
+    - Tell me about government resources for financial help.
