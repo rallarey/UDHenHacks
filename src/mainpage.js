@@ -7,8 +7,10 @@ let renderPage = (loggedIn)=>{
   
     
     $("body").html(`
-    <p>hi</p>
-    <button id = "nextpage">NEXT PAGE</button>
+
+
+    
+
     <button id = "logout">LOG OUT</button>
     `);
   
