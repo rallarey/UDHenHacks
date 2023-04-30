@@ -4,7 +4,8 @@ let renderPage = (loggedIn)=>{
     var username = '';
     var pic = '';
     let myuid = loggedIn.uid;
-  
+
+    
     
     $("body").html(`
     <body data-spy="scroll" data-target="#navbar" data-offset="30">
@@ -101,11 +102,11 @@ let renderPage = (loggedIn)=>{
     </footer>
 
 
-    
-
+   
     <button id = "logout">LOG OUT</button>
-    `);
-  
+    
+        `);
+    
   
     $("#logout").on("click", ()=>{
       firebase.auth().signOut();
