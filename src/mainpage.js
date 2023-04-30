@@ -98,10 +98,7 @@ let renderPage = (loggedIn)=>{
     <footer class="my-5 text-center">
         <p class="mb-2">COPYRIGHT © 2023. ALL RIGHTS RESERVED.</p>
         <a>TERMS</a>
-
     </footer>
-
-
    
     <button id = "logout">LOG OUT</button>
     
