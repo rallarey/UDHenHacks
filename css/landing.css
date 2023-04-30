@@ -1,8 +1,7 @@
 /* Basic format */
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    position: relative;
-    background-color: #f1f1ef;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ffffff00;
 }
 a {
     color:#eac2c2;
@@ -47,7 +46,7 @@ p {
     color: black;
 }
 p.lead {
-    color: rgb(240, 234, 234);
+    color: rgb(4, 4, 4);
     margin-bottom: 2rem;
 }
 .light-font {
@@ -62,9 +61,9 @@ p.lead {
     font-family: 'Times New Roman', Times, serif
 }
 .button {
-  border: 3px solid white;
+  border: 3px solid rgb(148, 191, 148);
   border-radius: 3px;
-  color: white;
+  color: rgb(31, 28, 28);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -82,9 +81,9 @@ p.lead {
 .button:not([disabled]):not(.disabled).active,
 .button:not([disabled]):not(.disabled):active,
 .show>.button.dropdown-toggle {
-    background-image: linear-gradient( 110deg, rgb(187, 254, 179),#a8dbad  100%);
+    background-image: linear-gradient( 110deg, #bbfeb3,#a8dbad  100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
-    color: #FFF;
+    color: #080707;
 }
 .btn-primary {
     border-radius: 3px;
@@ -166,7 +165,7 @@ p.lead {
 header {
     padding: 100px 0 0;
     text-align: center;
-    color: #FFF;
+    color: #131111;
 }
 .bg-gradient {
     background-image: -moz-linear-gradient( 110deg, #C1ECFA 20%,#719CAA 100%);
@@ -175,9 +174,10 @@ header {
     background-image: linear-gradient( 110deg, #C1ECFA 20%,#719CAA 100%);
 }
 .subtitle {
-    font-size: 20px;
+    font-size: 15px;
+    font-style:italic;
     font-weight: 300;
-    color: #FFF;
+    color: #080707;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -188,7 +188,7 @@ header {
 }
 .custom-logo{
     font-weight: bold;
-    color:white;
+    color:rgb(13, 11, 11);
     font-size: 1.2em;
   }
 
@@ -301,4 +301,104 @@ header {
     border-radius: 3px;
     margin-bottom: 1.5rem;
     background-color: #FFF;
+    display: inline-round;
+}
+
+nav {
+    background-color: #a8bea6; /* set background color */
+    display: flex; /* display items in a row */
+    justify-content: center; /* center items horizontally */
+  }
+  
+  ul {
+    list-style-type: none; /* remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* display items in a row */
+  }
+  
+  li {
+    margin: 0 10px; /* add some space between items */
+  }
+  
+  button {
+    background-color:transparent; /* make background transparent */
+    color: #f9fbf9; /* set font color to white */
+    border: none; /* remove borders */
+    font-size: 16px; /* set font size */
+    font-style: oblique;
+    cursor: pointer; /* add pointer cursor */
+                     /* add some padding */
+  }
+  
+  button:hover {
+    background-color: transparent; /* add background color on hover */
+  }
+  
+  #home {
+    /* add specific styles for the home button */
+    font-weight: bold;
+  }
+  
+  #quiz {
+    /* add specific styles for the quiz button */
+    font-weight: bold;
+  }
+  
+  #finance {
+    /* add specific styles for the finance button */
+    font-weight: bold;
+  }
+  
+  #budget {
+    /* add specific styles for the budget button */
+    font-weight: bold;
+  }
+  
+  #resources {
+    /* add specific styles for the resources button */
+    font-weight: bold;
+  }
+  
+  #logout {
+    /* add specific styles for the logout button */
+    font-weight: bold;
+  }
+
+
+  
+  
+#assessment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #185f36;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0e2f05;
 }
