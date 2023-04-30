@@ -1,5 +1,4 @@
 # UDHenHacks
-# rasa run --enable-api --cors="*" use this command to run the chat bot
 
 # empowerU
 #This web app is designed to provide financial planning resources for the underserved community. It includes a ChatBot to answer financial questions, an interest calculator to help understand investment returns, a budget planner to keep finances on track, and a list of useful resources.
