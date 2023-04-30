@@ -1,0 +1,135 @@
+version: "3.1"
+
+rules:
+
+- rule: Ask help
+  steps:
+  - intent: ask_help
+  - action: utter_ask_help
+
+- rule: Greetings 
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: respond to investment basics
+  steps:
+  - intent: investment_basics
+  - action: utter_investment_basics
+
+- rule: respond to investment types
+  steps:
+  - intent: investment_types
+  - action: utter_investment_types
+
+- rule: respond to budgeting basics
+  steps:
+  - intent: budgeting_basics
+  - action: utter_budgeting_basics
+
+- rule: respond to financial planning basics
+  steps:
+  - intent: financial_planning_basics
+  - action: utter_financial_planning_basics
+
+- rule: respond to payday loans risks
+  steps:
+  - intent: payday_loans_risks
+  - action: utter_payday_loans_risks
+
+- rule: respond to debt reduction
+  steps:
+  - intent: debt_reduction
+  - action: utter_debt_reduction
+
+- rule: respond to credit scores
+  steps:
+  - intent: credit_scores
+  - action: utter_credit_scores
+
+- rule: respond to about 401k
+  steps:
+  - intent: about_401k
+  - action: utter_about_401k
+
+- rule: respond to diversification
+  steps:
+  - intent: diversification
+  - action: utter_diversification
+
+- rule: respond to growth strategies
+  steps:
+  - intent: growth_strategies
+  - action: utter_growth_strategies
+
+
+- rule: respond to non-profit resources
+  steps:
+  - intent: non_profit_resources
+  - action: utter_non_profit_resources
+
+- rule: respond to government programs
+  steps:
+  - intent: government_programs
+  - action: utter_government_programs
+
+- rule: respond to roth_ira
+  steps:
+  - intent: roth_ira
+  - action: utter_roth_ira
+
+- rule: respond to etf_explanation
+  steps:
+  - intent: etf_explanation
+  - action: utter_etf_explanation
+
+- rule: respond to potential_stocks
+  steps:
+  - intent: potential_stocks
+  - action: utter_potential_stocks
+
+- rule: respond to improve_credit_score
+  steps:
+  - intent: improve_credit_score
+  - action: utter_improve_credit_score
+
+- rule: respond to potential_banks
+  steps:
+  - intent: potential_banks
+  - action: utter_potential_banks
+
+- rule: respond to potential_credit_unions
+  steps:
+  - intent: potential_credit_unions
+  - action: utter_potential_credit_unions
+
+- rule: respond to popular_index_funds_etfs
+  steps:
+  - intent: popular_index_funds_etfs
+  - action: utter_popular_index_funds_etfs
+
+
+- rule: respond to credit unions
+  steps:
+  - intent: credit_unions
+  - action: utter_credit_unions
+
+- rule: respond to investment recommendations
+  steps:
+  - intent: investment_recommendations
+  - action: utter_investment_recommendations
+
+- rule: respond to fin planresources
+  steps:
+  - intent: financial_planning_resources
+  - action: utter_financial_planning_resources
+
+- rule: budget tools
+  steps:
+  - intent: budgeting_tools
+  - action: utter_budgeting_tools
+
+- rule: debt_reduction_resources
+  steps:
+  - intent: debt_reduction_resources
+  - action: utter_debt_reduction_resources
