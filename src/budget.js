@@ -57,7 +57,6 @@ let renderBudgetPage= ()=>{
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
   <div class="wrapper">
       <div class="container">
         <div class="sub-container">
