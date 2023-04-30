@@ -63,7 +63,7 @@ let renderQuizPage=()=>{
 		      answerButton.appendChild(button);
 		      button.addEventListener("click", selectAnswer);
       });
-} 
+    } 
      function resetState(){ 
 	     nextButton.style.display = "none";
 	     while(answerButtons.firstChild){
@@ -80,6 +80,6 @@ let renderQuizPage=()=>{
         firebase.auth().signOut();
       });
     
-    };:wq:
+    };
 
-    export {renderQuizPage}f;
+    export {renderQuizPage};
