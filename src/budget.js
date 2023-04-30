@@ -25,7 +25,8 @@ let renderBudgetPage= ()=>{
           </script> 
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Budget App</title>
+     
+                  <title>Budget App</title>
     <!-- Font Awesome Icons -->
     <link
       rel="stylesheet"
