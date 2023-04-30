@@ -129,8 +129,7 @@ let renderQuizPage= ()=>{
 
    $("#budgetpage").on("click",()=>{
     renderBudgetPage();
-
-          </script> `);
+   });
 
     $("#budgetpage").on("click",()=>{
         renderBudgetPage();
@@ -140,6 +139,7 @@ let renderQuizPage= ()=>{
     $("#logout").on("click", ()=>{
         firebase.auth().signOut();
     });
+
 };
 
 
