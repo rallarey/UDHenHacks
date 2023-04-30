@@ -6,7 +6,7 @@ intents:
 - payday_loans_risks
 - debt_reductionzw
 - budgeting_basics
-- investment_types
+- investment_type
 - investment_basics
 - investment_recommendations
 - financial_planning_resources
@@ -24,6 +24,10 @@ intents:
 - potential_banks
 - potential_credit_unions
 - popular_index_funds_etfs
+- emergency_funds
+- low_cost_loan_alternatives
+- retirement_planning
+- financial_literacy
 
 
 entities:
@@ -108,3 +112,35 @@ responses:
   
   utter_debt_reduction_resources:
   - text: "To find help with debt reduction, consider seeking advice from a non-profit credit counseling agency, financial planner, or debt management company. Many non-profit organizations offer free or low-cost financial counseling services. You can also find online resources, such as articles and videos, to help you learn debt reduction strategies."
+
+  utter_emergency_funds:
+  - text: "An emergency fund is a savings account that you set aside to cover unexpected expenses, like medical bills or car repairs. It's recommended to have 3-6 months' worth of living expenses in your emergency fund."
+
+  utter_low_cost_loan_alternatives:
+  - text: "Some low-cost loan alternatives include credit union loans, peer-to-peer lending, and federal student loans. It's important to compare different loan options to find the one that best suits your needs."
+
+  utter_retirement_planning:
+  - text: "Retirement planning involves saving and investing to ensure a comfortable retirement. Some steps include setting retirement goals, estimating expenses, choosing investment vehicles, and reviewing your plan periodically."
+
+  utter_financial_literacy:
+  - text: "To improve your financial literacy, you can read personal finance books, take online courses, attend workshops, and follow finance blogs or podcasts. Regularly educating yourself on financial topics is key."
+
+
+  utter_credit_counseling:
+  - text: "Credit counseling is a service provided by certified professionals to help individuals manage their debt, create budgets, and improve their overall financial situation. It can help you identify the best strategies to pay off your debt and avoid bankruptcy."
+
+  utter_consumer_protection:
+  - text: "Consumer protection refers to laws and organizations designed to ensure consumer rights are upheld and to protect them from unfair business practices. To protect yourself, be cautious about sharing personal information, use secure websites, and report any suspicious activity."
+
+  utter_online_banking:
+  - text: "Online banking allows you to manage your bank accounts, pay bills, and transfer money through the internet. It provides the convenience of accessing your accounts anytime, anywhere, and often includes features like budgeting tools, financial insights, and real-time transaction updates."
+
+  utter_debt_management:
+  - text: "Debt management involves creating a plan to repay your debts while minimizing interest and fees. Some strategies include creating a budget, prioritizing high-interest debts, consolidating loans, and negotiating with creditors for better terms."
+ 
+  utter_homeownership_mortgage_assistance:
+  - text: "Homeownership and mortgage assistance programs help eligible individuals purchase a home or manage their existing mortgage payments. Assistance can come in the form of grants, low-interest loans, or counseling services. You can check with your local housing agency or non-profit organizations for available programs."
+
+
+
+

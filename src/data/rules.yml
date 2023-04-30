@@ -133,3 +133,48 @@ rules:
   steps:
   - intent: debt_reduction_resources
   - action: utter_debt_reduction_resources
+
+- rule: Provide information about emergency funds
+  steps:
+  - intent: emergency_funds
+  - action: utter_emergency_funds
+
+- rule: Suggest low-cost loan alternatives
+  steps:
+  - intent: low_cost_loan_alternatives
+  - action: utter_low_cost_loan_alternatives
+
+- rule: Assist with retirement planning
+  steps:
+  - intent: retirement_planning
+  - action: utter_retirement_planning
+
+- rule: Share resources for financial literacy
+  steps:
+  - intent: financial_literacy
+  - action: utter_financial_literacy
+
+- rule: Provide information about credit counseling
+  steps:
+  - intent: credit_counseling
+  - action: utter_credit_counseling
+
+- rule: Explain consumer protection
+  steps:
+  - intent: consumer_protection
+  - action: utter_consumer_protection
+
+- rule: Describe online banking
+  steps:
+  - intent: online_banking
+  - action: utter_online_banking
+
+- rule: Share tips for debt management
+  steps:
+  - intent: debt_management
+  - action: utter_debt_management
+
+- rule: Offer homeownership and mortgage assistance information
+  steps:
+  - intent: homeownership_mortgage_assistance
+  - action: utter_homeownership_mortgage_assistance
