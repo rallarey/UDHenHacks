@@ -60,11 +60,11 @@ let renderNextPage = ()=>{
     <div class="interest-calculator">
         <h2>Interest Calculator</h2>
         <label for="principal">Principal:</label>
-        <input type="number" id="principal" name="Loan Amount" value="1000" required>
+        <input type="number" id="principal" name="Loan Amount" value="100000" required>
         <label for="interest-rate">Interest Rate (%):</label>
         <input type="number" id="interest-rate" name="interest-rate" value="5" required>
         <label for="term">Loan Length (years):</label>
-        <input type="number" id="term" name="term" value="5"required>
+        <input type="number" id="term" name="term" value="20"required>
         <button id = "Calculate">Calculate</button>
         <p id="result"></p>
         <p id="result2"></p>

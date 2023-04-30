@@ -105,14 +105,14 @@ let renderPage = (loggedIn)=>{
             </div>
             <div class="row pt-4">
                 <div class="col-md-6">
-                    <h4 class="mb-3">What is a payday loan? </h4>
+                    <h4 class="mb-3">How do I signup? </h4>
                     <p class="light-font mb-5"> You could always sign up with any Google account or with other valid emails in case you need to reset your password when you forget it.</p>
-                    <h4 class="mb-3">How to create a new assignment event? </h4>
-                    <p class="light-font mb-5">First, click the day you want to create a new assignment for. Next in the following pop-up window, fill out the blanks. By clicking "Save" button, your new assignment appears in your planner.</p>
+                    <h4 class="mb-3">What type of services does this website offer? </h4>
+                    <p class="light-font mb-5">This website gives free financial assessments, has an interest calculator, has a budget calculator, a wide list of resources, and an CHATBOT that uses machine learning and natural language processing to answer different financial questions</p>
                 </div>
                 <div class="col-md-6">
-                    <h4 class="mb-3">How to change the current assignment? </h4>
-                    <p class="light-font mb-5">Click the existed assignment that you want to change, and then re-edite fields as you would like to.</p>
+                    <h4 class="mb-3">Is this website for Profit? </h4>
+                    <p class="light-font mb-5">This website is non for profit and solely exists to spread information about the dangers of payday loans and resources for long term financial planning.</p>
                     <h4 class="mb-3">Can I share my planner with others? </h4>
                     <p class="light-font mb-5">Currently, we do not support this service, but we will have this feature in the future.</p>
                 </div>
