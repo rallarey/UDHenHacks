@@ -305,7 +305,7 @@ header {
 }
 
 nav {
-    background-color: #a8bea6; /* set background color */
+    background-color: #daecd9; /* set background color */
     display: flex; /* display items in a row */
     justify-content: center; /* center items horizontally */
   }
@@ -323,12 +323,13 @@ nav {
   
   button {
     background-color:transparent; /* make background transparent */
-    color: #f9fbf9; /* set font color to white */
+    color: #0e100e; /* set font color to white */
     border: none; /* remove borders */
     font-size: 16px; /* set font size */
     font-style: oblique;
     cursor: pointer; /* add pointer cursor */
                      /* add some padding */
+                      
   }
   
   button:hover {

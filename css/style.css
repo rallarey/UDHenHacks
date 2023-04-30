@@ -6,7 +6,7 @@
   font-family: 'Times New Roman', Times, serif;
 }
 .topnav {
-    background-color: #98e5f9;
+    background-color: #151717;
     overflow: hidden;
   }
   
@@ -90,7 +90,7 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #eff4db;
+	background-color: #060605;
 }
 
 /* Style the main section */
@@ -148,7 +148,7 @@ nav a:hover {
   padding: 0;
   margin: 0;
   box-sizing: border-round;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 body {
   background-color: #09090a;
@@ -187,7 +187,7 @@ body {
   display: block;
   width: 100%;
   padding: 0.6em 0.3em;
-  border: 1px solid #d0d0d0;
+  border: 1px solid #050505;
   border-radius: 0.3em;
   color: #414a67;
   outline: none;
@@ -228,7 +228,7 @@ body {
   background-color: #aad5bf;
   border: none;
   outline: none;
-  color: #ffffff;
+  color: #0d0a0a;
   padding: 0.6em 1.2em;
   border-radius: 0.3em;
   cursor: pointer;

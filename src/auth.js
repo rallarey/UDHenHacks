@@ -103,7 +103,7 @@ let renderLogIn = ()=>{
       <div class = "container">
         <div class="row align-items-center">
           <div class="col">
- <h2> PaySmart </h2>
+ <h2> EmpowerU </h2>
                
  
  <h3>Sign Up</h3>
