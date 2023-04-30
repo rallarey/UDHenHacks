@@ -65,14 +65,17 @@ let renderNextPage = ()=>{
         <input type="number" id="interest-rate" name="interest-rate" value="5" required>
         <label for="term">Loan Length (years):</label>
         <input type="number" id="term" name="term" value="20"required>
-        <button id = "Calculate">Calculate</button>
+        <button class="calculate-button" id = "Calculate">Calculate</button>
         <p id="result"></p>
         <p id="result2"></p>
         <p id="result3"></p>
         <\center>
     </div>
-
-    <canvas id="loanChart"></canvas>
+    <center>
+      <div class = "chart-container">
+        <canvas id="loanChart"></canvas>
+      </div>
+    </center>
     `);
       /*
     const ctx = document.getElementById('myChart');

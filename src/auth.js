@@ -26,7 +26,7 @@ let renderLogIn = ()=>{
             <input type = "password" placeholder = "Password" id = "user-password" class = form-control mb-3">
             <br>
               <i>
-                <small id = "signinpage">Go back </small>
+                <small class = "account"id = "signinpage">Go back </small>
               </i>
               <small>
                 <input type="checkbox" id = "checkbox2"> Show Password
@@ -103,7 +103,7 @@ let renderLogIn = ()=>{
       <div class = "container">
         <div class="row align-items-center">
           <div class="col">
- <h2> PaySmart </h2>
+ <h2> EmpowerU </h2>
                
  
  <h3>Sign Up</h3>
@@ -129,14 +129,12 @@ let renderLogIn = ()=>{
               <small id = "image">*u must hit upload image for your profile picture to upload</small>
             </br>
             -->
-            <br>
               <i>
-                <small id = "loginpage">Already have an account?</small>
+                <small class = "account" id = "loginpage">Already have an account?</small>
               </i>
               <small>
-                <input type="checkbox" id = "checkbox"> Show Password
+                <input type="checkbox" id = "checkbox">Show Password
               </small>
-            </br>
       
             <button type = "text" id = "signup" class = "btn btn-outline-primary mb-3">Sign Up</button>
             <button type = "text" id = "login" class = "btn btn-outline-primary mb-3">Google</button>

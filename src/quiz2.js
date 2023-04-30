@@ -18,20 +18,25 @@ let renderQuizStats = (income, expenses, debts, savings)=>{
       <li><button id="logout">Log out</button></li>
     </ul>
     </nav>
-
+    <center>
         <h3>Summary</h3>
-
-        <p>income: <span id="income"></span></p>
-        <p>expenses: <span id="expenses"></span></p>
-        <p>debts: <span id="debts"></span></p>
-        <p>savings: <span id="savings"></span></p>
-
-        <div class="chart1-container">
-            <canvas id="myChart"></canvas>
+        
+        <p>Income: <span id="income"></span></p>
+        <p>Expenses: <span id="expenses"></span></p>
+        <p>Debts: <span id="debts"></span></p>
+        <p>Savings: <span id="savings"></span></p>
+        <div class="charts-container">
+            <div class="chart2-container">
+                <canvas id="myChart"></canvas>
+            </div>
+            <div class="chart3-container">
+                <canvas id="PieChart"></canvas>
         </div>
-        <div class="chart2-container">
-            <canvas id="PieChart"></canvas>
         </div>
+        </center>
+
+
+
 
         
         <h2>Recommendations</h2>
@@ -40,8 +45,13 @@ let renderQuizStats = (income, expenses, debts, savings)=>{
         <p><span id="recommendations3"></span></p>
 
         <p id = "resources">Check out the resources page which provides helpful resources to guide you on your financial journey!</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
-        <h1> Financial Assesment </h1> 
 
 
     `)

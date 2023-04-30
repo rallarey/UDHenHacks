@@ -327,12 +327,13 @@ nav {
     border: none; /* remove borders */
     font-size: 16px; /* set font size */
     font-style: oblique;
-    cursor: pointer; /* add pointer cursor */
+    cursor: pointer;
+    font-weight:bolder /* add pointer cursor */
                      /* add some padding */
   }
   
   button:hover {
-    background-color: transparent; /* add background color on hover */
+    color: gray;/* add background color on hover */
   }
   
   #home {

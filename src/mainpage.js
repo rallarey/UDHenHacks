@@ -101,13 +101,13 @@ let renderPage = (loggedIn)=>{
                     <h4 class="mb-3">How do I signup? </h4>
                     <p class="light-font mb-5"> You could always sign up with any Google account or with other valid emails in case you need to reset your password when you forget it.</p>
                     <h4 class="mb-3">What type of services does this website offer? </h4>
-                    <p class="light-font mb-5">This website gives free financial assessments, has an interest calculator, has a budget calculator, a wide list of resources, and an CHATBOT that uses machine learning and natural language processing to answer different financial questions</p>
+                    <p class="light-font mb-5">This website gives free financial assessments, has an interest calculator, has a budget calculator, a wide list of resources, and an CHATBOT that uses machine learning and natural language processing to answer different financial questions.</p>
                 </div>
                 <div class="col-md-6">
                     <h4 class="mb-3">Is this website for Profit? </h4>
-                    <p class="light-font mb-5">This website is non for profit and solely exists to spread information about the dangers of payday loans and resources for long term financial planning.</p>
-                    <h4 class="mb-3">Can I share my planner with others? </h4>
-                    <p class="light-font mb-5">Currently, we do not support this service, but we will have this feature in the future.</p>
+                    <p class="light-font mb-5">This website is non for profit and exists to spread information about the dangers of payday loans and resources for long term financial planning.</p>
+                    <h4 class="mb-3">How should I utilize the budget planner?</h4>
+                    <p class="light-font mb-5">To use the budgeting tool effectively, use the tool to track your spending and adjust your habits as needed to stay within your budget. Be sure to check in regularly to see how you are doing and make any necessary adjustments to stay on track.</p>
                 </div>
             </div>
         </div>

@@ -289,5 +289,38 @@ body {
     gap: 1em;
   }
 }
+.calculate-button {
+  color: black;
+}
 
+.calculate-button:hover{
+  color: gray;
+}
 
+.account:hover{
+  color: red;
+  cursor:pointer;
+}
+
+.chart-container {
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 1000px;
+}
+
+.charts-container{
+  display:flex;
+}
+
+.chart2-container{
+  flex: 1;
+  width: 400px;
+  height: 400px;
+}
+
+.chart3-container{
+  flex: 1;
+  width: 300px;
+  height: 300px;
+}
