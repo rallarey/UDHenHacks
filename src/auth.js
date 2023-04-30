@@ -103,7 +103,10 @@ let renderLogIn = ()=>{
       <div class = "container">
         <div class="row align-items-center">
           <div class="col">
-            <h3>Sign Up</h3>
+ <h2> PaySmart </h2>
+               
+ 
+ <h3>Sign Up</h3>
             
             <input type = "text" placeholder = "Fullname" id = "new-user-name" class = form-control mb-3">
             

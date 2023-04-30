@@ -8,16 +8,16 @@ a {
 }
 a:hover,
 a:focus {
-    color: #fdc0c0;
+    color: #0e401f;
 }
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 300;
     letter-spacing: -1px;
     margin-bottom: 1.5rem;
 }
 h2 {
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 300;
     color: rgb(29, 27, 27);
     letter-spacing: -1px;

@@ -70,7 +70,7 @@ let renderResourcePage= ()=>{
   </head>
   <body>
   
-  <h2>Resource Page for Underserved Delaware Populations</h2>
+  <h2>Resources: Underserved Delaware Populations</h2>
   
   <button class="collapsible">Budgeting and Saving</button>
   <div class="content">
