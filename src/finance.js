@@ -1,5 +1,7 @@
-import { renderPage } from "./mainpage.js";
 import { renderQuizPage } from "./quiz.js";
+import { renderBudgetPage } from "./budget.js";
+import { renderResourcePage} from "./resource.js";
+import { renderPage } from "./mainpage.js";
 
 let renderNextPage = ()=>{
     var user = firebase.auth();
@@ -21,6 +23,17 @@ let renderNextPage = ()=>{
     
     
     $("body").html(`
+    
+    <nav>
+    <ul>
+    <li><button id="home">Home</button></li>
+      <li><button id="quiz">Financial Assessment</button></li>
+      <li><button id="finance">Interest Calculator</button></li>
+      <li><button id="budget">Budget Planner</button></li>
+      <li><button id="resources">Resources</button></li>
+      <li><button id="logout">Log out</button></li>
+    </ul>
+    </nav>
     <script>!(function () {
         let e = document.createElement("script"),
           t = document.head || document.getElementsByTagName("head")[0];
@@ -59,10 +72,6 @@ let renderNextPage = ()=>{
     </div>
 
     <canvas id="loanChart"></canvas>
-
-    <button id = "nextpage">NEXT PAGE</button>
-    <button id = "previouspage">PREVIOUS PAGE</button>
-    <button id = "logout">LOG OUT</button>
     `);
       /*
     const ctx = document.getElementById('myChart');
@@ -154,18 +163,6 @@ let renderNextPage = ()=>{
         createChart();
     });
   
-    $("#logout").on("click", ()=>{
-      firebase.auth().signOut();
-    });
-
-    $("#nextpage").on("click", ()=>{
-        renderQuizPage();
-    });
-    
-    $("#previouspage").on("click", ()=>{
-        renderPage(user);
-    });
-
     $("#Calculate").on("click", ()=>{
         calculate();
         updateChart();
@@ -174,6 +171,29 @@ let renderNextPage = ()=>{
     $("#updateChart").on("click",()=>{
         updateChart();
     });
+
+    $("#logout").on("click", ()=>{
+        firebase.auth().signOut();
+      });
+  
+      $("#quiz").on("click", ()=>{
+        renderQuizPage();
+      });
+  
+      $("#finance").on("click", ()=>{
+        renderNextPage();
+      });
+  
+      $("#budget").on("click", ()=>{
+        renderBudgetPage();
+      });
+  
+      $("#resources").on("click", ()=>{
+        renderResourcePage();
+      });
+      $("#home").on("click", ()=>{
+        renderPage(user);
+      });
 
   
   };

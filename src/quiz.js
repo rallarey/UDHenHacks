@@ -2,6 +2,7 @@ import {renderBudgetPage} from "./budget.js"
 import {renderNextPage} from "./finance.js"
 import {renderQuizStats} from "./quiz2.js"
 import {renderResourcePage } from "./resource.js";
+import { renderPage } from "./mainpage.js";
 
 export const firebaseConfig = {
     apiKey: "AIzaSyAcTb0AVwtoOlslV51omp6yZX1Db13s59Q",
@@ -18,13 +19,19 @@ firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 
 let renderQuizPage= ()=>{
+    var user = firebase.auth();
     $("body").html(`
-        <p>idk</p>
-        <button id = "nextpage">NEXT PAGE</button>
-        <button id = "budgetpage">BUDGET PAGE</button>
-        <button id = "financepage">FINANCE PAGE</button>
-        <button id = "resourcepage">RESOURCE PAGE</button>
-        <button id = "logout">LOG OUT</button>
+    
+    <nav>
+    <ul>
+        <li><button id="home">Home</button></li>
+      <li><button id="quiz">Financial Assessment</button></li>
+      <li><button id="finance">Interest Calculator</button></li>
+      <li><button id="budget">Budget Planner</button></li>
+      <li><button id="resources">Resources</button></li>
+      <li><button id="logout">Log out</button></li>
+    </ul>
+    </nav>
         <script>!(function () {
             let e = document.createElement("script"),
               t = document.head || document.getElementsByTagName("head")[0];
@@ -46,15 +53,6 @@ let renderQuizPage= ()=>{
           })();
 
           </script>
-        <nav>
-        <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Budget Calculator</a></li>
-        <li><a href="#">Interest Rate</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">links</a></li> 
-        </ul>
-        </nav>
 
         <form id="assessment-form">
 		<label for="income">Income:</label>
@@ -120,25 +118,30 @@ let renderQuizPage= ()=>{
         renderQuizStats(income, expenses, debts, savings);
 
     });
-
-
-    $("#budgetpage").on("click",()=>{
-        console.log("TESTING!!!");
-        renderBudgetPage();
-    });
     $("#logout").on("click", ()=>{
         firebase.auth().signOut();
-    });
-    $("#financepage").on("click", ()=>{
+      });
+  
+      $("#quiz").on("click", ()=>{
+        renderQuizPage();
+      });
+  
+      $("#finance").on("click", ()=>{
         renderNextPage();
-    });
-    $("#resourcepage").on("click", ()=>{
-      renderResourcePage();
-    });
-    $("#nextpage").on("click", ()=>{
+      });
+  
+      $("#budget").on("click", ()=>{
         renderBudgetPage();
-    });
-    
+      });
+  
+      $("#resources").on("click", ()=>{
+        renderResourcePage();
+      });
+
+      $("#home").on("click", ()=>{
+        renderPage(user);
+      });
+
 
 };
 

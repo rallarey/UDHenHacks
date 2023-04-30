@@ -1,7 +1,22 @@
+import { renderQuizPage } from "./quiz.js";
+import { renderNextPage } from "./finance.js";
+import { renderBudgetPage } from "./budget.js";
+import { renderPage } from "./mainpage.js";
+
 let renderResourcePage= ()=>{
+  var user = firebase.auth();
     $("body").html(`
-    <p></p>
-    <button id = "logout">LOG OUT</button>
+    
+    <nav>
+    <ul>
+    <li><button id="home">Home</button></li>
+      <li><button id="quiz">Financial Assessment</button></li>
+      <li><button id="finance">Interest Calculator</button></li>
+      <li><button id="budget">Budget Planner</button></li>
+      <li><button id="resources">Resources</button></li>
+      <li><button id="logout">Log out</button></li>
+    </ul>
+    </nav>
     <script>!(function () {
         let e = document.createElement("script"),
           t = document.head || document.getElementsByTagName("head")[0];
@@ -715,8 +730,27 @@ let renderResourcePage= ()=>{
   </body>`);
       
 
-      $("#logout").on("click", ()=>{
-        firebase.auth().signOut();
-      });
+  $("#logout").on("click", ()=>{
+    firebase.auth().signOut();
+  });
+
+  $("#quiz").on("click", ()=>{
+    renderQuizPage();
+  });
+
+  $("#finance").on("click", ()=>{
+    renderNextPage();
+  });
+
+  $("#budget").on("click", ()=>{
+    renderBudgetPage();
+  });
+
+  $("#resources").on("click", ()=>{
+    renderResourcePage();
+  });
+  $("#home").on("click", ()=>{
+    renderPage(user);
+  });
     };
 export {renderResourcePage};

@@ -1,5 +1,7 @@
 import { renderQuizPage } from "./quiz.js";
 import { renderNextPage } from "./finance.js";
+import { renderBudgetPage } from "./budget.js";
+import { renderResourcePage} from "./resource.js";
 
 let renderPage = (loggedIn)=>{
     var username = '';
@@ -9,6 +11,18 @@ let renderPage = (loggedIn)=>{
     
     
     $("body").html(`
+
+    <nav>
+    <ul>
+      <li><button id="home">Home</button></li>
+      <li><button id="quiz">Financial Assessment</button></li>
+      <li><button id="finance">Interest Calculator</button></li>
+      <li><button id="budget">Budget Planner</button></li>
+      <li><button id="resources">Resources</button></li>
+      <li><button id="logout">Log out</button></li>
+    </ul>
+    </nav>
+
     <body data-spy="scroll" data-target="#navbar" data-offset="30">
 
     <!-- home category starts -->
@@ -100,8 +114,7 @@ let renderPage = (loggedIn)=>{
         <p class="mb-2">COPYRIGHT © 2023. ALL RIGHTS RESERVED.</p>
         <a>TERMS</a>
     </footer>
-   
-    <button id = "logout">LOG OUT</button>
+  
     
     <script>!(function () {
         let e = document.createElement("script"),
@@ -129,9 +142,27 @@ let renderPage = (loggedIn)=>{
       firebase.auth().signOut();
     });
 
-    $("#nextpage").on("click", ()=>{
-        renderNextPage();
+    $("#quiz").on("click", ()=>{
+      renderQuizPage();
     });
+
+    $("#finance").on("click", ()=>{
+      renderNextPage();
+    });
+
+    $("#budget").on("click", ()=>{
+      renderBudgetPage();
+    });
+
+    $("#resources").on("click", ()=>{
+      renderResourcePage();
+    });
+
+    $("#nextpage").on("click", ()=>{
+      renderQuizPage();
+    });
+
+
 
   
   };

@@ -1,8 +1,23 @@
-import {renderBudgetPage} from "./budget.js"
-import {renderNextPage} from "./finance.js"
+import { renderQuizPage } from "./quiz.js";
+import { renderNextPage } from "./finance.js";
+import { renderBudgetPage } from "./budget.js";
+import { renderResourcePage} from "./resource.js";
+import { renderPage } from "./mainpage.js";
 
 let renderQuizStats = (income, expenses, debts, savings)=>{
+    var user = firebase.auth();
     $("body").html(`
+    
+    <nav>
+    <ul>
+        <li><button id="home">Home</button></li>
+      <li><button id="quiz">Financial Assessment</button></li>
+      <li><button id="finance">Interest Calculator</button></li>
+      <li><button id="budget">Budget Planner</button></li>
+      <li><button id="resources">Resources</button></li>
+      <li><button id="logout">Log out</button></li>
+    </ul>
+    </nav>
 
         <h3>Summary</h3>
 
@@ -66,21 +81,29 @@ let renderQuizStats = (income, expenses, debts, savings)=>{
     }
 
 
-    $("#budgetpage").on("click",()=>{
-        console.log("TESTING!!!");
-        renderBudgetPage();
-    });
-
     $("#logout").on("click", ()=>{
         firebase.auth().signOut();
-    });
-
-    $("#financepage").on("click", ()=>{
+      });
+  
+      $("#quiz").on("click", ()=>{
+        renderQuizPage();
+      });
+  
+      $("#finance").on("click", ()=>{
         renderNextPage();
-    });
-    $("#nextpage").on("click", ()=>{
+      });
+  
+      $("#budget").on("click", ()=>{
         renderBudgetPage();
-    });
+      });
+  
+      $("#resources").on("click", ()=>{
+        renderResourcePage();
+      });
+      $("#home").on("click", ()=>{
+        renderPage(user);
+      });
+    
 };
 
 
