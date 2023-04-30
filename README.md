@@ -17,5 +17,6 @@ Chart.js
 To use the app, simply navigate to the website and select the desired tool from the menu. Each tool is designed to be user-friendly and provide easy-to-understand information to help with financial planning.
 run the following command in the src directory:
 ```
+pip install rasa
 rasa run --enable-api --cors="*" use this command to run the chat bot
 ```
