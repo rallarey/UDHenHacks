@@ -26,13 +26,24 @@ let renderPage = (loggedIn)=>{
     <body data-spy="scroll" data-target="#navbar" data-offset="30">
 
     <!-- home category starts -->
+   
     <header class="bg-gradient" id="home">
+    
         <div class="container mt-5">
-            <h1>Welcome to PaySmart</h1>
-            <p class="subtitle">A Financial Empowerment Platform for the Underserved</p>
-        </div>
+        
+            <h1> Welcome to PaySmart</h1>
+
+     <p class="subtitle">A Financial Empowerment Platform for the Underserved</p>
         <button id = "nextpage" class="btn button">Get Started!</button>
+        
+        <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Budget Calculator</a></li>
+          <li><a href="#">Interest Rate</a></li>
+          <li><a href="#">Contact</a></li>
     </header>
+    
     <!-- home category ends -->
 
     <!--feature category starts-->
@@ -94,7 +105,7 @@ let renderPage = (loggedIn)=>{
             </div>
             <div class="row pt-4">
                 <div class="col-md-6">
-                    <h4 class="mb-3">What is a payday loan</h4>
+                    <h4 class="mb-3">What is a payday loan? </h4>
                     <p class="light-font mb-5"> You could always sign up with any Google account or with other valid emails in case you need to reset your password when you forget it.</p>
                     <h4 class="mb-3">How to create a new assignment event? </h4>
                     <p class="light-font mb-5">First, click the day you want to create a new assignment for. Next in the following pop-up window, fill out the blanks. By clicking "Save" button, your new assignment appears in your planner.</p>
