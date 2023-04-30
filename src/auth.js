@@ -113,6 +113,7 @@ let renderLogIn = ()=>{
             -->
             <input type = "password" placeholder = "Password" id = "new-user-password" class = form-control mb-3">
             <input type = "password" placeholder = "Confirm Password" id = "confirm-password" class = form-control mb-3">
+            <!--
             <div id="fileuploadwrap">
             <span id="status"></span>
               <input type="file" id="fileupload" accept="image/png, image/jpeg"/>
@@ -120,9 +121,11 @@ let renderLogIn = ()=>{
                 <div id="output">
                 </div>
             </div>
+            
             <br>
               <small id = "image">*u must hit upload image for your profile picture to upload</small>
             </br>
+            -->
             <br>
               <i>
                 <small id = "loginpage">Already have an account?</small>

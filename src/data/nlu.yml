@@ -1,0 +1,128 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+- intent: ask_help
+  examples: |
+    - I need help with my finances
+    - Can you help me with my financial situation?
+    - I'm struggling with money, can you assist me?
+
+- intent: investment_basics
+  examples: |
+    - Can you explain the basics of investing?
+    - What should I know about investing?
+    - Give me an overview of investment.
+
+- intent: investment_types
+  examples: |
+    - What are the different types of investments?
+    - Tell me about various investment options.
+    - What investment options are available?
+
+- intent: budgeting_basics
+  examples: |
+    - Can you explain the basics of budgeting?
+    - How do I create a budget?
+    - Tell me about budgeting.
+
+- intent: financial_planning_basics
+  examples: |
+    - Can you explain the basics of financial planning?
+    - What should I know about financial planning?
+    - Give me an overview of financial planning.
+
+- intent: payday_loans_risks
+  examples: |
+    - What are the risks associated with payday loans?
+    - Tell me about the downsides of payday loans.
+    - Why should I avoid payday loans?
+
+- intent: debt_reduction
+  examples: |
+    - How can I reduce my debt?
+    - What are some strategies to pay off debt faster?
+    - Tips for reducing debt.
+
+
+- intent: credit_scores
+  examples: |
+    - Can you explain credit scores?
+    - How do credit scores work?
+    - Tell me about credit scores.
+
+- intent: about_401k
+  examples: |
+    - What is a 401k?
+    - Can you explain 401k plans?
+    - Tell me about 401k retirement plans.
+
+- intent: diversification
+  examples: |
+    - Can you explain diversification?
+    - What is investment diversification?
+    - Tell me about diversifying investments.
+
+- intent: growth_strategies
+  examples: |
+    - Can you explain growth strategies?
+    - What are some investment growth strategies?
+    - Tell me about strategies for growing my investments.
+
+- intent: non_profit_resources
+  examples: |
+    - What non-profit organizations can help with personal finance?
+    - Can you recommend some non-profits for financial assistance?
+    - Tell me about non-profit resources for financial help.
+
+- intent: government_programs
+  examples: |
+    - What government programs can help with personal finance?
+    - Can you recommend some government assistance programs?
+    - Tell me about government resources for financial help.
+
+- intent: roth_ira
+  examples: |
+    - Can you explain Roth IRA?
+    - What is a Roth IRA?
+    - Tell me about Roth IRAs.
+
+- intent: etf_explanation
+  examples: |
+    - What is an ETF?
+    - Can you explain ETFs?
+    - Tell me about exchange-traded funds.
+
+- intent: potential_stocks
+  examples: |
+    - What are some potential stocks to invest in?
+    - Can you recommend any stocks to buy?
+    - Suggest some stocks for investment.
+
+- intent: improve_credit_score
+  examples: |
+    - How can I improve my credit score?
+    - What can I do to increase my credit score?
+    - Give me some tips to boost my credit rating.
+
+- intent: potential_banks
+  examples: |
+    - What are some good banks to invest with?
+    - Can you recommend any banks for investing?
+    - Suggest some banks for investment purposes.
+
+- intent: potential_credit_unions
+  examples: |
+    - What are some good credit unions to invest with?
+    - Can you recommend any credit unions for investing?
+    - Suggest some credit unions for investment purposes.
+
+- intent: popular_index_funds_etfs
+  examples: |
+    - What are some popular index funds and ETFs?
+    - Can you recommend any well-known index funds and ETFs?
+    - Suggest some widely recognized index funds and ETFs.
+

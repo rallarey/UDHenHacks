@@ -1,10 +1,10 @@
 import {renderBudgetPage} from "./budget.js"
 import {renderNextPage} from "./finance.js"
 
-let renderQuizPage=()=>{
 
-  $("body").html(`
-    <p>idk</p>
+let renderQuizPage= ()=>{
+    $("body").html(`
+        <p>idk</p>
         <button id = "budgetpage">BUDGET PAGE</button>
         <button id = "logout">LOG OUT</button>
         <script>!(function () {
@@ -26,6 +26,7 @@ let renderQuizPage=()=>{
               }),
               t.insertBefore(e, t.firstChild);
           })();
+
           </script>
       <nav>
     <ul>
@@ -128,6 +129,12 @@ let renderQuizPage=()=>{
 
    $("#budgetpage").on("click",()=>{
     renderBudgetPage();
+
+          </script> `);
+
+    $("#budgetpage").on("click",()=>{
+        renderBudgetPage();
+
     });
 
     $("#logout").on("click", ()=>{
@@ -137,3 +144,5 @@ let renderQuizPage=()=>{
 
 
 export {renderQuizPage};
+
+

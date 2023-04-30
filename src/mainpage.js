@@ -9,6 +9,7 @@ let renderPage = (loggedIn)=>{
     
     $("body").html(`
     <body data-spy="scroll" data-target="#navbar" data-offset="30">
+
     <!-- home category starts -->
     <header class="bg-gradient" id="home">
         <div class="container mt-5">
@@ -18,6 +19,7 @@ let renderPage = (loggedIn)=>{
         <button id = "nextpage" class="btn button">Get Started!</button>
     </header>
     <!-- home category ends -->
+
     <!--feature category starts-->
     <div class="section light-bg" id="features">
         <div class="container">
@@ -68,6 +70,7 @@ let renderPage = (loggedIn)=>{
         </div>
     </div>
     <!--feature category ends-->
+
     <!--FAQ part starts-->
     <div class="section pt-0">
         <div class="container">
@@ -90,6 +93,7 @@ let renderPage = (loggedIn)=>{
             </div>
         </div>
     </div>
+
     <!--footer-->
     <footer class="my-5 text-center">
         <p class="mb-2">COPYRIGHT © 2023. ALL RIGHTS RESERVED.</p>
