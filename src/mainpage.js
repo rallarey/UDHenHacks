@@ -139,6 +139,7 @@ let renderPage = (loggedIn)=>{
           }),
           t.insertBefore(e, t.firstChild);
       })();
+      localStorage.clear();
       </script>  `);
     
   

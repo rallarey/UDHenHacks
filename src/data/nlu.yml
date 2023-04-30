@@ -126,3 +126,62 @@ nlu:
     - Can you recommend any well-known index funds and ETFs?
     - Suggest some widely recognized index funds and ETFs.
 
+- intent: emergency_funds
+  examples: |
+    - Tell me about emergency funds
+    - How should I set up an emergency fund?
+    - What are emergency funds?
+
+- intent: low_cost_loan_alternatives
+  examples: |
+    - What are some low-cost loan alternatives?
+    - Can you suggest cheaper loan options?
+    - Low-interest loan options
+
+- intent: retirement_planning
+  examples: |
+    - How can I plan for retirement?
+    - Tell me about retirement planning
+    - What should I do to prepare for retirement?
+
+- intent: financial_literacy
+  examples: |
+    - How can I improve my financial literacy?
+    - Financial literacy tips
+    - Resources for financial education
+
+- intent: credit_counseling
+  examples: |
+    - Tell me about credit counseling
+    - How can credit counseling help me?
+    - What is credit counseling?
+
+- intent: consumer_protection
+  examples: |
+    - What is consumer protection?
+    - How can I protect myself from fraud?
+    - Consumer protection measures
+
+- intent: online_banking
+  examples: |
+    - What are the benefits of online banking?
+    - Tell me about online banking
+    - How does online banking work?
+
+- intent: debt_management
+  examples: |
+    - How can I manage my debt?
+    - What are some debt management strategies?
+    - Tips for debt management
+
+- intent: homeownership_mortgage_assistance
+  examples: |
+    - How can I get mortgage assistance?
+    - What is homeownership assistance?
+    - Mortgage help options
+
+-intent: find_resources
+examples: |
+    - Where can I find resources?
+    - Where can I find more informations?
+    - Where can I learn more?
