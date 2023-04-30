@@ -160,6 +160,7 @@ let renderNextPage = ()=>{
     }
 
 
+
     $("#chart").on("click", ()=>{
         createChart();
     });

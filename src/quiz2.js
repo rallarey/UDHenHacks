@@ -25,6 +25,14 @@ let renderQuizStats = (income, expenses, debts, savings)=>{
         <p>expenses: <span id="expenses"></span></p>
         <p>debts: <span id="debts"></span></p>
         <p>savings: <span id="savings"></span></p>
+
+        <div class="chart1-container">
+            <canvas id="myChart"></canvas>
+        </div>
+        <div class="chart2-container">
+            <canvas id="PieChart"></canvas>
+        </div>
+
         
         <h2>Recommendations</h2>
         <p><span id="recommendations"></span></p>
@@ -53,6 +61,75 @@ let renderQuizStats = (income, expenses, debts, savings)=>{
     let expensesVariable = expenses;
     let debtsVariable = debts;
     let savingsVariable = savings;
+
+
+    // Create a new Chart.js chart object
+    var ctx = document.getElementById("myChart").getContext("2d");
+    new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['Income', 'Expenses', 'Debts', 'Savings'],
+        datasets: [{
+        label: 'Financial Situation',
+        data: [incomeVariable, expensesVariable, debtsVariable, savingsVariable],
+        backgroundColor: [
+            'rgba(255, 99, 132, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(255, 206, 86, 0.2)',
+            'rgba(75, 192, 192, 0.2)'
+        ],
+        borderColor: [
+            'rgba(255, 99, 132, 1)',
+            'rgba(54, 162, 235, 1)',
+            'rgba(255, 206, 86, 1)',
+            'rgba(75, 192, 192, 1)'
+        ],
+        borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+        yAxes: [{
+            ticks: {
+            beginAtZero: true
+            }
+        }]
+        }
+    }
+    });
+
+        // Get the canvas element and create a new pie chart
+    var ctx2 = document.getElementById("PieChart").getContext("2d");
+    var pieChart = new Chart(ctx2, {
+        type: 'pie',
+        data: {
+            labels: ['Expenses', 'Income', 'Debt'],
+            datasets: [{
+                label: 'Income vs Expenses',
+                data: [incomeVariable, expensesVariable, debtsVariable],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(54, 162, 235, 0.5)',
+                    'rgba(255, 206, 86, 0.5)'
+                ],
+                borderColor: [
+                    'rgb(255, 99, 132)',
+                    'rgb(54, 162, 235)',
+                    'rgb(255, 206, 86)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            legend: {
+                position: 'bottom'
+            }
+        }
+    });
+
+
 
     document.getElementById("income").innerHTML = incomeVariable;
     document.getElementById("expenses").innerHTML = expensesVariable;
