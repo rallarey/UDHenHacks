@@ -4,9 +4,9 @@ intents:
 - greet
 - financial_planning_basics
 - payday_loans_risks
-- debt_reductionzw
+- debt_reduction
 - budgeting_basics
-- investment_type
+- investment_types
 - investment_basics
 - investment_recommendations
 - financial_planning_resources
@@ -28,8 +28,15 @@ intents:
 - low_cost_loan_alternatives
 - retirement_planning
 - financial_literacy
-
-
+- credit_scores
+- diversification
+- credit_unions
+- credit_counseling
+- consumer_protection
+- online_banking
+- debt_management
+- homeownership_mortgage_assistance
+- find_resources
 entities:
 - amount
 - date
@@ -52,7 +59,7 @@ responses:
   - text: "Some non-profit organizations that help with personal finance include the National Foundation for Credit Counseling (NFCC), Consumer Credit Counseling Services (CCCS), and local United Way chapters. These organizations provide financial education, budgeting assistance, and credit counseling services to individuals in need."
 
   utter_government_programs:
-  - text: "Various government programs can help"
+  - text: "There are numerous government programs aimed at helping underserved populations. These programs often focus on areas such as healthcare, education, housing, and financial assistance. Some examples of government programs that can help underserved communities in the United States include: Medicaid, SNAP, Section 8 Housing, and more! If you would like to learn more please visit the resources page."
 
   utter_investment_basics:
   - text: "Investing involves allocating money with the expectation of generating profit or income over time. The main goal is to achieve a return on your investment through capital gains or interest and dividend payments. To start investing, you should consider your financial goals, risk tolerance, and investment horizon."
@@ -73,7 +80,7 @@ responses:
   - text: "To reduce debt, consider the following strategies: 1) Create a budget to track your income and expenses, 2) Prioritize paying off high-interest debt, 3) Make extra payments whenever possible, 4) Use the debt avalanche or debt snowball method, 5) Consider debt consolidation or refinancing,"
 
   utter_greet:
-  - text: "What type of financial or budgeting resources are you looking for today"
+  - text: "Hi! I hope you are doing well. How can I be of assistance?"
     
   utter_ask_help:
   - text: "How can I help you with your finances?"
@@ -85,13 +92,14 @@ responses:
   - text: "An ETF, or exchange-traded fund, is a type of investment fund that holds a collection of assets, such as stocks, bonds, or commodities. ETFs are traded on stock exchanges, allowing investors to buy and sell shares throughout the trading day. They often track an index, offering diversification and lower costs compared to actively managed funds."
 
   utter_budgeting_tools:
-  - text: "There are several budgeting tools available, such as mobile apps, websites, and spreadsheets. Popular budgeting apps include Mint, YNAB (You Need a Budget), and EveryDollar. You can also create a custom spreadsheet or use a template to track your income and expenses."
+  - text: "There are several budgeting tools available, such as mobile apps, websites, and spreadsheets. Popular budgeting apps include Mint, YNAB (You Need a Budget), and EveryDollar. You can also create a custom spreadsheet or use a template to track your income and expenses. Also ont his website we have our own budgeting tool that you can use!"
 
   utter_potential_stocks:
   - text: "As an AI, I cannot provide real-time stock recommendations. It's important to conduct thorough research and consult a financial advisor before investing in stocks. Consider factors like the company's financial health, industry trends, and your investment goals and risk tolerance."
 
   utter_improve_credit_score:
   - text: "To improve your credit score, consider the following: 1) Pay your bills on time, 2) Reduce your credit card balances, 3) Avoid applying for unnecessary credit, 4) Keep old credit accounts open, and 5) Diversify your credit mix. Remember that building a good credit score takes time and consistent effort."
+  
   utter_potential_credit_unions:
   - text: "Choosing the right credit union for investing depends on factors like fees, investment options, and customer service. Some well-known credit unions with investment services include Navy Federal Credit Union, Alliant Credit Union, and PenFed Credit Union. Research each credit union's offerings and consult a financial advisor to determine the best fit for your needs."
 
@@ -125,7 +133,6 @@ responses:
   utter_financial_literacy:
   - text: "To improve your financial literacy, you can read personal finance books, take online courses, attend workshops, and follow finance blogs or podcasts. Regularly educating yourself on financial topics is key."
 
-
   utter_credit_counseling:
   - text: "Credit counseling is a service provided by certified professionals to help individuals manage their debt, create budgets, and improve their overall financial situation. It can help you identify the best strategies to pay off your debt and avoid bankruptcy."
 
@@ -141,6 +148,7 @@ responses:
   utter_homeownership_mortgage_assistance:
   - text: "Homeownership and mortgage assistance programs help eligible individuals purchase a home or manage their existing mortgage payments. Assistance can come in the form of grants, low-interest loans, or counseling services. You can check with your local housing agency or non-profit organizations for available programs."
 
-
+  utter_find_resources:
+  - text: "If you want learn more and find resources that can help you achieve your financial goals you can click the resource tab at the top of the screen"
 
 

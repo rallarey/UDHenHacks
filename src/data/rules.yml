@@ -178,3 +178,8 @@ rules:
   steps:
   - intent: homeownership_mortgage_assistance
   - action: utter_homeownership_mortgage_assistance
+
+- rule: Find Resources
+  steps:
+  - intent: find_resources
+  - action: utter_find_resources

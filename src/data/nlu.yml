@@ -179,3 +179,9 @@ nlu:
     - How can I get mortgage assistance?
     - What is homeownership assistance?
     - Mortgage help options
+
+-intent: find_resources
+examples: |
+    - Where can I find resources?
+    - Where can I find more informations?
+    - Where can I learn more?

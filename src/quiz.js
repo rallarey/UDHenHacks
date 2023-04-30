@@ -53,6 +53,7 @@ let renderQuizPage= ()=>{
           })();
 
           </script>
+          <h2><center> Financial Analyzer <\center></h2>
 
         <form id="assessment-form">
 		<label for="income">Income:</label>

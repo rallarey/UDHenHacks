@@ -57,7 +57,7 @@ let renderNextPage = ()=>{
     
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-    <div class="interest-calculator">
+    <div class="interest-calculator"> <center>
         <h2>Interest Calculator</h2>
         <label for="principal">Principal:</label>
         <input type="number" id="principal" name="Loan Amount" value="100000" required>
@@ -69,6 +69,7 @@ let renderNextPage = ()=>{
         <p id="result"></p>
         <p id="result2"></p>
         <p id="result3"></p>
+        <\center>
     </div>
 
     <canvas id="loanChart"></canvas>
