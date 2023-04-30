@@ -17,6 +17,7 @@ let renderBudgetPage= ()=>{
       <li><button id="logout">Log out</button></li>
     </ul>
     </nav>
+
         <p></p>
         <script>!(function () {
             let e = document.createElement("script"),
@@ -56,7 +57,8 @@ let renderBudgetPage= ()=>{
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper">
+
+  <div class="wrapper">
       <div class="container">
         <div class="sub-container">
           <!-- Budget -->
@@ -119,8 +121,6 @@ let renderBudgetPage= ()=>{
     <script src="script.js"></script>
   </body>
 </html>`);
-
-
 
 
 let totalAmount = document.getElementById("total-amount");
