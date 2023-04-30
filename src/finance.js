@@ -1,4 +1,5 @@
 import { renderPage } from "./mainpage.js";
+import { renderQuizPage } from "./quiz.js";
 
 let renderNextPage = ()=>{
     var user = firebase.auth();
@@ -158,7 +159,7 @@ let renderNextPage = ()=>{
     });
 
     $("#nextpage").on("click", ()=>{
-        renderNextPage();
+        renderQuizPage();
     });
     
     $("#previouspage").on("click", ()=>{

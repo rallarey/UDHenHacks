@@ -5,7 +5,9 @@ import {renderNextPage} from "./finance.js"
 let renderQuizPage= ()=>{
     $("body").html(`
         <p>idk</p>
+        <button id = "nextpage">NEXT PAGE</button>
         <button id = "budgetpage">BUDGET PAGE</button>
+        <button id = "financepage">FINANCE PAGE</button>
         <button id = "logout">LOG OUT</button>
         <script>!(function () {
             let e = document.createElement("script"),
@@ -37,7 +39,7 @@ let renderQuizPage= ()=>{
       <li><a href="#">links</a></li> 
       
     </ul>
-  </nav>
+    </nav>
       <p>hi</p>
       <p>chelseyeatspoop</p>
 
@@ -49,12 +51,7 @@ let renderQuizPage= ()=>{
       <button id = "next-btn" > Next </button>
       </div>
       </div>
-      
-      
 
-      <p>idk</p>
-      <button id = "budgetpage">BUDGET PAGE</button>
-      <button id = "logout">LOG OUT</button>
       <script>!(function () {
           let e = document.createElement("script"),
             t = document.head || document.getElementsByTagName("head")[0];
@@ -74,7 +71,7 @@ let renderQuizPage= ()=>{
             }),
             t.insertBefore(e, t.firstChild);
         })();
-        </script>
+    </script>
       `);
       
       //questions
@@ -113,32 +110,37 @@ let renderQuizPage= ()=>{
 		      button.classList.add("btn");
 		      answerButton.appendChild(button);
 		      button.addEventListener("click", selectAnswer);
-      });
-    } 
+        });
+      } 
      function resetState(){ 
 	     nextButton.style.display = "none";
 	     while(answerButtons.firstChild){
 		     answerButtons.removeChild(answerButtons.firstChild);
 	     }
-	}
-    function selectAnswer(e){
-	    const selectedBtn = e.target;
-	    const isCorrect = selectedBtn.dataset.correct == "true";
     }
-   startQuiz();
-
-   $("#budgetpage").on("click",()=>{
-    renderBudgetPage();
-   });
+    function selectAnswer(e){
+        const selectedBtn = e.target;
+        const isCorrect = selectedBtn.dataset.correct == "true";
+    }
+    //startQuiz();
+    
 
     $("#budgetpage").on("click",()=>{
+        console.log("TESTING!!!");
         renderBudgetPage();
-
     });
 
     $("#logout").on("click", ()=>{
         firebase.auth().signOut();
     });
+
+    $("#financepage").on("click", ()=>{
+        renderNextPage();
+    });
+    $("#nextpage").on("click", ()=>{
+        renderBudgetPage();
+    });
+    
 
 };
 

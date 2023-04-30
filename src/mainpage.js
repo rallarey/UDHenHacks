@@ -1,4 +1,5 @@
 import { renderQuizPage } from "./quiz.js";
+import { renderNextPage } from "./finance.js";
 
 let renderPage = (loggedIn)=>{
     var username = '';
@@ -129,7 +130,7 @@ let renderPage = (loggedIn)=>{
     });
 
     $("#nextpage").on("click", ()=>{
-        renderQuizPage();
+        renderNextPage();
     });
 
   
