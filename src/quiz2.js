@@ -6,8 +6,8 @@ import { renderPage } from "./mainpage.js";
 
 let renderQuizStats = (income, expenses, debts, savings)=>{
     var user = firebase.auth();
-    $("body").html(`
-    
+    $("body").html(`]]]==
+
     <nav>
     <ul>
         <li><button id="home">Home</button></li>
@@ -32,6 +32,8 @@ let renderQuizStats = (income, expenses, debts, savings)=>{
         <p><span id="recommendations3"></span></p>
 
         <p id = "resources">Check out the resources page which provides helpful resources to guide you on your financial journey!</p>
+
+        <h1> Financial Assesment </h1> 
 
 
     `)

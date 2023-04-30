@@ -108,7 +108,7 @@ let renderLogIn = ()=>{
  
  <h3>Sign Up</h3>
             
-            <input type = "text" placeholder = "Fullname" id = "new-user-name" class = form-control mb-3">
+            <input type = "text" placeholder = "Full name" id = "new-user-name" class = form-control mb-3">
             
             <input type = "text" placeholder = "Email" id = "new-user-email" class = form-control mb-3">
             <!--

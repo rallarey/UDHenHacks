@@ -11,7 +11,7 @@
   }
   
   nav {
-    background-color: #e0f3d4b7;
+    background-color: #5c6159b7;
     height: 50px;
   }
   
@@ -71,8 +71,9 @@ header {
 }
 
 header h1 {
-	font-size: 36px;
+	font-size: 75px;
 	margin: 0;
+  font-family: Garamond  ;
 }
 
 nav ul {
@@ -132,7 +133,7 @@ nav a:hover {
 
 #next-btn{
     background: hsl(216, 51%, 87%);
-    color:#fff;
+    color:#fef9f9;
     font-weight:500;
     width:150px;
     border:0;
@@ -150,7 +151,7 @@ nav a:hover {
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #f7f9fd;
+  background-color: #09090a;
 }
 .wrapper {
   width: 90%;
@@ -288,3 +289,5 @@ body {
     gap: 1em;
   }
 }
+
+
