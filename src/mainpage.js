@@ -31,7 +31,7 @@ let renderPage = (loggedIn)=>{
     
         <div class="container mt-5">
         
-            <h1> Welcome to PaySmart</h1>
+            <h1> Welcome to EmpowerU</h1>
 
      <p class="subtitle">A Financial Empowerment Platform for the Underserved</p>
         <button id = "nextpage" class="btn button">Get Started!</button>
@@ -43,7 +43,7 @@ let renderPage = (loggedIn)=>{
     <div class="section light-bg" id="features">
         <div class="container">
             <div class="section-title">
-                <h3>PaySmart Features</h3>
+                <h3> EmpowerU Features</h3>
             </div>
             <div class="row">
                 <div class="col-12 col-lg-4">
