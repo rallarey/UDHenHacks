@@ -1,5 +1,6 @@
 import {renderBudgetPage} from "./budget.js"
 import {renderNextPage} from "./finance.js"
+import {renderResourcePage } from "./resource.js";
 
 
 let renderQuizPage= ()=>{
@@ -8,6 +9,7 @@ let renderQuizPage= ()=>{
         <button id = "nextpage">NEXT PAGE</button>
         <button id = "budgetpage">BUDGET PAGE</button>
         <button id = "financepage">FINANCE PAGE</button>
+        <button id = "resourcepage">RESOURCE PAGE</button>
         <button id = "logout">LOG OUT</button>
         <script>!(function () {
             let e = document.createElement("script"),
@@ -129,13 +131,14 @@ let renderQuizPage= ()=>{
         console.log("TESTING!!!");
         renderBudgetPage();
     });
-
     $("#logout").on("click", ()=>{
         firebase.auth().signOut();
     });
-
     $("#financepage").on("click", ()=>{
         renderNextPage();
+    });
+    $("#resourcepage").on("click", ()=>{
+      renderResourcePage();
     });
     $("#nextpage").on("click", ()=>{
         renderBudgetPage();
