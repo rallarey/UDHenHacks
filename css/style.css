@@ -65,7 +65,7 @@ ul {
 
 /* Style the header */
 header {
-	background-color: #9fd69b;
+	background-color: #edf1ed;
 	padding: 20px;
   font-weight: bolder;
 }
@@ -127,7 +127,7 @@ nav a:hover {
 
 .btn:hover{
 	background: #222;
-    color: #fff;
+    color: #1b1a1a;
 }
 
 #next-btn{

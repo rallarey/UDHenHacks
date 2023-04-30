@@ -33,11 +33,6 @@ let renderQuizStats = (income, expenses, debts, savings)=>{
 
         <p id = "resources">Check out the resources page which provides helpful resources to guide you on your financial journey!</p>
 
-        <button id = "nextpage">NEXT PAGE</button>
-        <button id = "budgetpage">BUDGET PAGE</button>
-        <button id = "financepage">FINANCE PAGE</button>
-        <button id = "logout">LOG OUT</button>
-
 
     `)
 

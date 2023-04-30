@@ -36,13 +36,6 @@ let renderPage = (loggedIn)=>{
      <p class="subtitle">A Financial Empowerment Platform for the Underserved</p>
         <button id = "nextpage" class="btn button">Get Started!</button>
         
-        <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Budget Calculator</a></li>
-          <li><a href="#">Interest Rate</a></li>
-          <li><a href="#">Contact</a></li>
-    </header>
     
     <!-- home category ends -->
 
