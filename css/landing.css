@@ -213,7 +213,7 @@ header {
     content: "";
     position: absolute;
     width: 3px;
-    color: #fc73b4;
+    color: #0d440d;
     background: -moz-linear-gradient(top, #C1ECFA 20%,#719CAA 100%);
     background: -webkit-linear-gradient(top, #C1ECFA 20%,#719CAA 100%);
     background: linear-gradient(to bottom, #C1ECFA 20%,#719CAA 100%);
